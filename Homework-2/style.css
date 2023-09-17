@@ -1,0 +1,43 @@
+header > h1{
+    text-align: center;
+}
+.quote{
+    color: green;
+    line-height: 30px;
+}
+.list a[href^="https://"]{
+    color: red;
+}
+.list > li:last-child a{
+    background-color: green;
+}
+.holder > ul + p{
+    font-size: 26px;
+}
+.text-box h3:first-child{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+.text-box > div > p{
+    color: red;
+}
+.text-box p:nth-last-child(2){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.bg-box{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background:  url("img/lamp.png")0 0/ 25px repeat-x,url("img/green.png") 0 400px/ 200px 200px repeat-x,url("img/3F3F.webp")0 10px/ 20px repeat-y,url("img/donut.png") 780px 0/ 20px repeat-y,url("img/home.jpg") center no-repeat,green;
+    width: 800px;
+    height: 600px;
+
+
+
+
+}

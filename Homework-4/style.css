@@ -1,0 +1,144 @@
+body{
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    color: blue;
+    font-size: 26px;
+}
+.fate{
+    width: 600px;
+    height: 600px;
+    background-color: #0d5825;
+    margin: 0 auto;
+    position: relative;
+}
+.quote{
+    padding-top: 20px;
+    display: block;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.initials{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+.cards_1{
+    position: relative;
+    width: 150px;
+    transform: translate(160px,170px) rotate(-20deg);
+    transition: 0.5s ease;
+    bottom: 0;
+}
+.cards_1:hover{
+   bottom: 20px;
+}
+.cards_2{
+    width: 150px;
+    transform: translate(59px,180px) rotate(-5deg);
+    position: relative;
+    transition: 0.5s ease;
+    bottom: 0;
+}
+.cards_2:hover{
+    bottom: 20px;
+}
+.cards_3 {
+    position: relative;
+    transition: 0.5s ease;
+    width: 150px;
+    transform: translate(-40px, 200px) rotate(10deg);
+    bottom: 0;
+}
+.cards_3:hover{
+    bottom: 20px;
+}
+.blocks{
+    margin: 30px auto 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+}
+.block_1{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    height: 75px;
+    width: 75px;
+    background-color: red;
+}
+.block_2{
+    position: relative;
+    top: 50px;
+    left: 130px;
+    z-index: 2;
+    height: 75px;
+    width: 75px;
+    background-color: mediumslateblue;
+}
+.block_3{
+    position: relative;
+    top: 20px;
+    left: 180px;
+    height: 75px;
+    width: 75px;
+    background-color: lightgreen;
+}
+.menu_here{
+    width: 200px;
+    height: 425px;
+    writing-mode: vertical-rl;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-right: 5px;
+    position: relative;
+    right: 180px;
+    text-transform: uppercase;
+}
+.nav{
+    width: 200px;
+    height: 400px;
+    background-color: grey;
+    padding-top: 25px;
+    padding-left: 20px;
+    position: relative;
+    bottom: 425px;
+    left: -230px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+    text-transform: uppercase;
+    transition: 1s ease;
+}
+.link:hover{
+    color: orange;
+}
+.nav > li::before{
+    content: '';
+    border: 1px solid #000;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: orange;
+    margin-right: 10px;
+    transform: translate(0, -50%) scaleY(1.5) rotate(45deg);
+}
+.menu{
+    width: 20px;
+}
+.menu:hover{
+    position: relative;
+    left: 230px;
+}
+.menu:hover > .menu_here{
+    color: grey;
+}
